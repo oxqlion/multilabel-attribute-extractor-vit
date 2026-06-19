@@ -1,0 +1,45 @@
+# ============================================================
+#  Fashionpedia Attribute Extraction — Python Requirements
+#  Hardware target: Apple Silicon (M-series) via MPS backend
+#  Python: 3.10+
+# ============================================================
+#
+# INSTALLATION (Apple Silicon / M5 Mac)
+# ──────────────────────────────────────
+# 1. Create a virtual environment:
+#      python3 -m venv .venv && source .venv/bin/activate
+#
+# 2. Install PyTorch with MPS support (do this FIRST, before pip install -r):
+#      pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#      # Note: on M-series Macs, the standard CPU wheel includes MPS support.
+#      # Do NOT install the CUDA wheel on macOS.
+#
+# 3. Install remaining requirements:
+#      pip install -r requirements.txt
+#
+# VERIFY MPS IS AVAILABLE
+# ────────────────────────
+#   python3 -c "import torch; print(torch.backends.mps.is_available())"
+#   # Should print: True
+#
+# ============================================================
+
+# ── Core deep learning ────────────────────────────────────────────────────────
+torch>=2.3.0            # MPS support mature from 2.0; autocast on MPS from 2.3
+torchvision>=0.18.0     # ConvNeXt_Tiny_Weights.IMAGENET1K_V2 available from 0.14
+
+# ── Data & ML utilities ───────────────────────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0     # average_precision_score, f1_score
+Pillow>=10.0.0          # Image loading
+
+# ── Visualisation (optional, for plot_training_curves.py) ────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ── Progress bars (optional, graceful fallback in preprocessing script) ───────
+tqdm>=4.65.0
+
+# ── Parquet export (optional) ─────────────────────────────────────────────────
+pyarrow>=12.0.0

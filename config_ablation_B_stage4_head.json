@@ -1,0 +1,12 @@
+{
+  "_comment": "Ablation B: Stage-4 + head (default recommended config). Unfreeze blocks 6+7 (last ConvNeXt stage). Good balance of speed and accuracy.",
+  "run_name": "ablation_B_stage4_head",
+  "unfreeze_from_block": 6,
+  "lr_head": 1e-3,
+  "lr_backbone": 1e-4,
+  "num_epochs": 30,
+  "cosine_t_max": 27,
+  "warmup_epochs": 3,
+  "head_hidden_dim": 512,
+  "head_dropout": 0.3
+}

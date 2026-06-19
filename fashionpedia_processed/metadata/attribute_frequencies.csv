@@ -1,0 +1,132 @@
+attr_id,name,supercat,count,retained
+295,no non-textile material,non-textile material type,65701,True
+115,symmetrical,silhouette,60032,True
+317,plain (pattern),textile pattern,58299,True
+316,no special manufacturing technique,"textile finishing, manufacturing techniques",38233,True
+160,wrist-length,length,32179,True
+142,normal waist,waistline,24980,True
+136,regular (fit),silhouette,24605,True
+145,no waistline,waistline,18926,True
+146,above-the-hip (length),length,17392,True
+229,zip-up,opening type,16841,True
+135,tight (fit),silhouette,13416,True
+157,short (length),length,12688,True
+225,single breasted,opening type,12165,True
+141,high waist,waistline,11522,True
+311,lining,"textile finishing, manufacturing techniques",10237,True
+147,hip (length),length,10097,True
+149,mini (length),length,9544,True
+154,maxi (length),length,9373,True
+230,fly (opening),opening type,9020,True
+301,printed,"textile finishing, manufacturing techniques",8025,True
+128,straight,silhouette,6798,True
+159,three quarter (length),length,6075,True
+155,floor (length),length,5337,True
+137,loose (fit),silhouette,4985,True
+305,gathering,"textile finishing, manufacturing techniques",4778,True
+234,no opening,opening type,4538,True
+182,round (neck),neckline type,4349,True
+150,above-the-knee (length),length,4152,True
+129,a-line,silhouette,4111,True
+298,washed,"textile finishing, manufacturing techniques",3908,True
+143,low waist,waistline,3680,True
+325,floral,textile pattern,3579,True
+127,pencil,silhouette,3536,True
+119,fit and flare,silhouette,3408,True
+148,micro (length),length,3178,True
+158,elbow-length,length,3107,True
+281,plastic,non-textile material type,3107,True
+183,v-neck,neckline type,2987,True
+328,stripe,textile pattern,2978,True
+185,oval (neck),neckline type,2722,True
+151,knee (length),length,2661,True
+190,scoop (neck),neckline type,2578,True
+304,pleat,"textile finishing, manufacturing techniques",2321,True
+322,check,textile pattern,2272,True
+153,midi,length,2264,True
+114,asymmetrical,silhouette,2201,True
+312,applique(a),"textile finishing, manufacturing techniques",2156,True
+200,straight across (neck),neckline type,2118,True
+313,bead(a),"textile finishing, manufacturing techniques",2030,True
+187,sweetheart (neckline),neckline type,1694,True
+320,"letters, numbers",textile pattern,1674,True
+152,below the knee (length),length,1511,True
+318,abstract,textile pattern,1478,True
+117,circle,silhouette,1462,True
+302,ruched,"textile finishing, manufacturing techniques",1359,True
+189,boat (neck),neckline type,1321,True
+326,geometric,textile pattern,1240,True
+118,flare,silhouette,1180,True
+283,metal,non-textile material type,1135,True
+323,dot,textile pattern,1062,True
+228,wrapping,opening type,975,True
+309,slit,"textile finishing, manufacturing techniques",973,True
+192,plunging (neckline),neckline type,949,True
+186,u-neck,neckline type,949,True
+123,bell,silhouette,937,True
+126,peg,silhouette,918,True
+180,asymmetric (neckline),neckline type,905,True
+319,cartoon,textile pattern,893,True
+140,dropped waistline,waistline,871,True
+297,distressed,"textile finishing, manufacturing techniques",856,True
+286,gem,non-textile material type,793,True
+179,collarless,neckline type,792,True
+308,cutout,"textile finishing, manufacturing techniques",764,True
+314,rivet(a),"textile finishing, manufacturing techniques",763,True
+120,trumpet,silhouette,758,True
+289,fur,non-textile material type,730,True
+197,high (neck),neckline type,692,True
+203,one shoulder,neckline type,686,True
+181,crew (neck),neckline type,683,True
+138,oversized,silhouette,670,True
+121,mermaid,silhouette,669,True
+133,high low,silhouette,663,True
+226,double breasted,opening type,636,True
+191,square (neckline),neckline type,626,True
+198,turtle (neck),neckline type,615,True
+132,wide leg,silhouette,590,True
+194,halter (neck),neckline type,565,True
+307,tiered,"textile finishing, manufacturing techniques",545,True
+315,sequin(a),"textile finishing, manufacturing techniques",536,True
+202,off-the-shoulder,neckline type,529,True
+300,frayed,"textile finishing, manufacturing techniques",499,True
+296,burnout,"textile finishing, manufacturing techniques",484,True
+184,surplice (neck),neckline type,465,True
+130,tent,silhouette,444,True
+340,plant,textile pattern,430,True
+139,empire waistline,waistline,380,True
+339,toile de jouy,textile pattern,364,True
+324,fair isle,textile pattern,355,True
+227,lace up,opening type,351,True
+188,queen anne (neck),neckline type,330,True
+327,paisley,textile pattern,303,True
+125,bootcut,silhouette,257,False
+156,sleeveless,length,254,False
+303,quilted,"textile finishing, manufacturing techniques",234,False
+116,peplum,silhouette,226,False
+199,cowl (neck),neckline type,218,False
+282,rubber,non-textile material type,188,False
+331,chevron,textile pattern,188,False
+201,illusion (neck),neckline type,182,False
+310,perforated,"textile finishing, manufacturing techniques",181,False
+122,balloon,silhouette,169,False
+306,smocking,"textile finishing, manufacturing techniques",152,False
+321,camouflage,textile pattern,147,False
+144,basque (wasitline),waistline,134,False
+332,argyle,textile pattern,114,False
+134,curved (fit),silhouette,111,False
+193,keyhole (neck),neckline type,108,False
+329,houndstooth (pattern),textile pattern,97,False
+232,buckled (opening),opening type,91,False
+195,crossover (neck),neckline type,90,False
+196,choker (neck),neckline type,88,False
+299,embossed,"textile finishing, manufacturing techniques",86,False
+330,herringbone (pattern),textile pattern,78,False
+131,baggy,silhouette,77,False
+233,toggled (opening),opening type,58,False
+285,feather,non-textile material type,43,False
+124,bell bottom,silhouette,43,False
+231,chained (opening),opening type,19,False
+294,wood,non-textile material type,4,False
+287,bone,non-textile material type,2,False
+288,ivory,non-textile material type,1,False

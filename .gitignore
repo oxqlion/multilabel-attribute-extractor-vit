@@ -1,0 +1,44 @@
+# ── Secrets ──────────────────────────────────────────────────────────────────
+.env
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environment ───────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Raw dataset images (3.3 GB train, 234 MB test) ───────────────────────────
+train/
+test/
+
+# ── Large dataset annotation files (>100 MB, exceeds GitHub limit) ───────────
+instances_attributes_train2020.json
+
+# ── Model checkpoints ────────────────────────────────────────────────────────
+fashionpedia_runs/*/checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# ── Processed data files (large binary/tabular outputs) ──────────────────────
+fashionpedia_processed/*.npy
+fashionpedia_processed/*.parquet
+fashionpedia_processed/train.csv
+fashionpedia_processed/val.csv
+fashionpedia_processed/train.json
+fashionpedia_processed/val.json
+
+# ── Inference output artifacts ────────────────────────────────────────────────
+any_dress_photo_output.json
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store

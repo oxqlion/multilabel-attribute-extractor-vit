@@ -1,0 +1,12 @@
+{
+  "_comment": "Ablation A: Head-only (backbone fully frozen). Fastest training, weakest performance. Use as lower-bound baseline.",
+  "run_name": "ablation_A_head_only",
+  "unfreeze_from_block": 8,
+  "lr_head": 1e-3,
+  "lr_backbone": 0.0,
+  "num_epochs": 20,
+  "cosine_t_max": 17,
+  "warmup_epochs": 3,
+  "head_hidden_dim": 512,
+  "head_dropout": 0.3
+}

@@ -1,0 +1,36 @@
+# ============================================================
+#  Fashionpedia API — Python Requirements
+#  Platform: Apple Silicon (M5) / macOS
+# ============================================================
+#
+# INSTALL ORDER (important on macOS):
+#
+#   1. Install PyTorch first (MPS support included in standard wheel):
+#      pip install torch torchvision
+#
+#   2. Then install the rest:
+#      pip install -r requirements.txt
+#
+# ============================================================
+
+# ── API framework ─────────────────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0       # ASGI server
+python-multipart>=0.0.9         # required for FastAPI file uploads
+pydantic>=2.7.0
+pydantic-settings>=2.3.0        # reads .env files into Settings
+
+# ── Deep learning (install torch separately — see above) ──────────────────────
+# torch>=2.3.0
+# torchvision>=0.18.0
+Pillow>=10.0.0
+
+# ── Local LLM ─────────────────────────────────────────────────────────────────
+transformers>=4.43.0
+accelerate>=0.31.0              # required by HuggingFace device_map
+
+# ── Claude API fallback (optional) ───────────────────────────────────────────
+anthropic>=0.30.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+numpy>=1.24.0

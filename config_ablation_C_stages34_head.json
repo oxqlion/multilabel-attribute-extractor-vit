@@ -1,0 +1,12 @@
+{
+  "_comment": "Ablation C: Stages 3+4 + head (blocks 4-7 unfrozen). More capacity, slower. Use if B plateaus early.",
+  "run_name": "ablation_C_stages34_head",
+  "unfreeze_from_block": 4,
+  "lr_head": 1e-3,
+  "lr_backbone": 5e-5,
+  "num_epochs": 30,
+  "cosine_t_max": 27,
+  "warmup_epochs": 5,
+  "head_hidden_dim": 512,
+  "head_dropout": 0.4
+}
