@@ -42,3 +42,17 @@ any_dress_photo_output.json
 
 # ── macOS ─────────────────────────────────────────────────────────────────────
 .DS_Store
+
+# ── Xcode / iOS ───────────────────────────────────────────────────────────────
+xcuserdata/
+*.xcuserstate
+DerivedData/
+.build/
+buildServer.json
+.vscode/
+
+# ── LaTeX build artifacts ─────────────────────────────────────────────────────
+report/*.log
+report/*.aux
+report/*.out
+report/*.toc
